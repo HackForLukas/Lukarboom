@@ -34,3 +34,9 @@ cd Lukarboom
 chmod +x *
 
 ./Lukarboom.py</h6>
+<h5>Windows (Enter code in notepad)</h5>
+<h6>winget install python
+
+notepad Lukarboom.py
+
+python Lukarboom.py</h6>
