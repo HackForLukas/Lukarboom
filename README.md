@@ -4,7 +4,17 @@ DdoS-DoS Attack (This Code Hide Your UserAgent and IP Address)
 # How to start tool
 <h5>Termux</h5>
 <h6>pkg update
+
 pkg upgrade
+
 pkg install python
+
 pkg install git
-git clone https://github.com/HackForLukas/Lukarboom</h6>
+
+git clone https://github.com/HackForLukas/Lukarboom
+
+cd Lukarboom
+
+chmod +x *
+
+./Lukarboom.py</h6>
