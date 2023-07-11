@@ -67,8 +67,8 @@ def menu():
 		sys.exit()
 	else:
 		menu()
-while True:
-	try:
-		menu()
-	except:
-		menu()
+
+try:
+	menu()
+except:
+	menu()
