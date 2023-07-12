@@ -68,7 +68,4 @@ def menu():
 	else:
 		menu()
 
-try:
-	menu()
-except:
-	menu()
+menu()
