@@ -7,7 +7,7 @@ DdoS-DoS Attack (This Code Hide Your UserAgent and IP Address)
 
 pkg upgrade
 
-pkg install python
+pkg install python3
 
 pkg install git
 
@@ -17,13 +17,13 @@ cd Lukarboom
 
 chmod +x *
 
-./Lukarboom.py</h6>
+python3 Lukarboom.py</h6>
 <h5>Kali Linux</h5>
 <h6>apt-get update
 
 apt-get upgrade
 
-apt-get install python
+apt-get install python3
 
 apt-get install git
 
@@ -33,7 +33,7 @@ cd Lukarboom
 
 chmod +x *
 
-./Lukarboom.py</h6>
+python3 Lukarboom.py</h6>
 <h5>Windows (Enter code in notepad)</h5>
 <h6>winget install python
 
