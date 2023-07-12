@@ -58,10 +58,12 @@ def menu():
 	if choice == "01":
 		host = input("\n\033[31mHost or Website: \033[32m")
 		port = int(input("\033[31mPort (Standart: 80): \033[32m"))
+		host.replace("https://", "")
 		start(host, port)
 	elif choice == "1":
 		host = input("\n\033[31mHost or Website: \033[32m")
 		port = int(input("\033[31mPort (Standart: 80): \033[32m"))
+		host.replace("https://", "")
 		start(host, port)
 	elif choice == "99":
 		sys.exit()
