@@ -1,6 +1,6 @@
 #!/bin/python3
 # ( Ddos Tool: Lukarboom)
-# By HackForLukas
+# By HackForLukas/HackerLukas
 # MIT License
 import threading as par
 import os
