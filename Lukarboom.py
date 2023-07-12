@@ -1,6 +1,6 @@
 #!/bin/python3
 # ( Ddos Tool: Lukarboom)
-# By hackforlukas
+# By HackForLukas
 # MIT License
 import threading as par
 import os
@@ -55,7 +55,7 @@ def menu():
 | |     | | | | |_/ |____ |/ ___)  _ \ / _ \ / _ \|    \ 
 | |_____| |_| |  _ (/ ___ | |   | |_) ) |_| | |_| | | | |
 |_______)____/|_| \_)_____|_|   |____/ \___/ \___/|_|_|_|
-           v1.0 by hackforlukas (github)\033[0m""")
+           v1.0 by HackForLukas (github)\033[0m""")
 	print("\033[31mLukarboom \033[32m~ DdoS-DoS Attack (This Code Hide Your UserAgent and IP Address\n")
 	print("\033[31m[01] \033[32mStart Attack\n\033[31m[99] \033[32mExit\n")
 	choice = input("\033[31mChoice: \033[32m")
