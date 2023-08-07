@@ -1,6 +1,6 @@
 #!/bin/python3
 # ( Ddos Tool: Lukarboom)
-# By HackForLukas/HackerLukas
+# By HackForLukas
 # MIT License
 import threading as par
 import os
@@ -61,16 +61,42 @@ def menu():
 	choice = input("\033[31mChoice: \033[32m")
 	if choice == "01":
 		host = input("\n\033[31mHost or Website: \033[32m")
-		port = int(input("\033[31mPort (Standart: 80): \033[32m"))
+		try:
+			port = int(input("\033[31mPort (Standart: 80): \033[32m"))
+		except:
+			menu()
 		host.replace("https://", "")
 		host.replace("http://", "")
+		try:
+			print("\033[31mTrying Connect ...\033[0m")
+			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+			s.settimeout(1)
+			s.connect((host, port))
+			s.close()
+		except:
+			print("\033[31mERROR: connection refused or timed out")
+			time.sleep(1)
+			menu()
 		start(host, port)
 	elif choice == "1":
 		host = input("\n\033[31mHost or Website: \033[32m")
-		port = int(input("\033[31mPort (Standart: 80): \033[32m"))
+		try:
+			port = int(input("\033[31mPort (Standart: 80): \033[32m"))
+		except:
+			menu()
 		host.replace("https://", "")
 		host.replace("http://", "")
-		start(host, port)
+		try:
+			print("\033[31mTrying Connect ...\033[0m")
+			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+			s.settimeout(1)
+			s.connect((host, port))
+			s.close()
+		except:
+			print("\033[31mERROR: connection refused or timed out")
+			time.sleep(1)
+			menu()
+		start(host, port)			
 	elif choice == "99":
 		sys.exit()
 	else:
