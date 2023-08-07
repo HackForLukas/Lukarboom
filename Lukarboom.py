@@ -6,6 +6,7 @@ import threading as par
 import os
 import socket 
 import sys
+import time
 def send(host, port):
 	try:
 		ip = gethostbyname(host)
